@@ -1,10 +1,11 @@
 import './App.css'
+import NavigationBar from './components/NavigationBar'
 
 function App() {
 
   return (
     <div className="App">
-      Tadeo Javier Cocucci
+      <NavigationBar/>
     </div>
   )
 }
