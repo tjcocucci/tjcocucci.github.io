@@ -50,6 +50,10 @@ img {
   max-height: 75%;
 }
 
+img.profile {
+  content: url('../public/static/profile.jpg');
+}
+
 @media screen and (max-width: 800px) {
   .leftcolumn,
   .rightcolumn {
@@ -57,3 +61,4 @@ img {
     padding: 0;
   }
 }
+
