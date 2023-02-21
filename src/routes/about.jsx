@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      <h2>About</h2>
+      <a href="../../public/static/cv.pdf" target="_blank">Acá</a> tengo un pdf de mi currículum
     </div>
   );
 }
