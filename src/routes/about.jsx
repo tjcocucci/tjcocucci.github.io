@@ -1,7 +1,9 @@
+import cv from '../../public/static/cv.pdf'
+
 export default function About() {
   return (
     <div>
-      <a href="../../public/static/cv.pdf" target="_blank">Acá</a> tengo un pdf de mi currículum
+      <a href={cv} target="_blank">Acá</a> tengo un pdf de mi currículum
     </div>
   );
 }
