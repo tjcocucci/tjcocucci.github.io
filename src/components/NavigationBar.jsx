@@ -17,17 +17,20 @@ export default function NavigationBar() {
             <Nav.Link as={Link} to="/about" title="About">
               About
             </Nav.Link>
-            <NavDropdown title="Dropdown" id="navbarScrollingDropdown">
-              <Nav.Link as={Link} to="/about" title="About">
-                About
+            <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
+              <Nav.Link as={Link} to="/portfolio/academic" title="academic">
+                Académico
               </Nav.Link>
-              <Nav.Link as={Link} to="/about" title="About">
-                About
+              <Nav.Link as={Link} to="/portfolio/unity" title="unity">
+                Unity
               </Nav.Link>
-              <Nav.Link as={Link} to="/about" title="About">
-                About
+              <Nav.Link as={Link} to="/portfolio/web" title="web">
+                Web
               </Nav.Link>
             </NavDropdown>
+            <Nav.Link as={Link} to="/interests" title="interests">
+              Intereses
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

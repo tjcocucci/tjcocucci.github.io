@@ -8,7 +8,7 @@ export default function RightColumn() {
         <h2>Tadeo Javier Cocucci</h2>
         <h5>Dr. en Ciencias de la Computación</h5>
         <p>
-          <a href="tadeojcocucci@gmail.com">
+          <a href="mailto:tadeojcocucci@gmail.com">
             tadeojcocucci@gmail.com
           </a>
         </p>
