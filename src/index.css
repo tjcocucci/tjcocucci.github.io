@@ -1,0 +1,11 @@
+.profile {
+    float: left;
+    height: 350px;
+    margin-left: 125px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: blue;
+    clip-path: circle();
+}
