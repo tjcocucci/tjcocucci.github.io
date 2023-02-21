@@ -1,16 +1,15 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import Root from '../routes/root.jsx'
+import Home from '../routes/home.jsx'
+import About from '../routes/about.jsx'
+import NoMatch from '../routes/nomatch.jsx'
 
-export default function App() {
+export default function Router() {
     return (
         <Routes>
-            <Route path="/" element={<Layout />}>
+            <Route path="/" element={<Root />}>
                 <Route index element={<Home />} />
                 <Route path="about" element={<About />} />
-                <Route path="dashboard" element={<Dashboard />} />
-
-                {/* Using path="*"" means "match anything", so this route
-                acts like a catch-all for URLs that we don't have explicit
-                routes for. */}
                 <Route path="*" element={<NoMatch />} />
             </Route>
         </Routes>
