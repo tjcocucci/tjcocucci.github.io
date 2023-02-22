@@ -6,7 +6,7 @@ import Router from './components/Router.jsx';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/tjcocucci.github.io">
+      <BrowserRouter >
         <Router />
       </BrowserRouter>
     </div>
