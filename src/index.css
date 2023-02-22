@@ -6,7 +6,7 @@ body {
 
 body::after {
   content: '';
-  background: url('../public/static/bg.jpg');
+  background: url('../public/static/bg_tilt.jpg');
   opacity: 0.3;
   top: 0;
   left: 0;
