@@ -6,11 +6,9 @@ import Router from './components/Router.jsx';
 function App() {
   return (
     <div className="App">
-      <React.StrictMode>
         <HashRouter >
           <Router />
         </HashRouter>
-      </React.StrictMode>
     </div>
   );
 }
