@@ -1,4 +1,4 @@
-import cv from '../../public/static/cv.pdf'
+import cv from '../../static/cv.pdf'
 
 export default function About() {
   return (

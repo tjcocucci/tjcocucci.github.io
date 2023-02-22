@@ -6,7 +6,7 @@ body {
 
 body::after {
   content: '';
-  background: url('../public/static/bg_tilt.jpg');
+  background: url('../static/bg_tilt.jpg');
   opacity: 0.3;
   top: 0;
   left: 0;
@@ -51,7 +51,7 @@ img {
 }
 
 img.profile {
-  content: url('../public/static/profile.jpg');
+  content: url('../static/profile.jpg');
 }
 
 @media screen and (max-width: 800px) {
