@@ -1,3 +1,5 @@
+import Card from '../components/Card.jsx';
+
 export default function Portfolio() {
-  return <div>Portfolio</div>;
+  return <Card>Portfolio</Card>;
 }

@@ -10,6 +10,7 @@ body {
 #background-image {
   background-image: url('../static/bg_tilt.jpg');
   background-repeat: repeat;
+  background-attachment: fixed;
   background-size: cover;
   content: '';
   opacity: 0.3;
@@ -17,7 +18,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  position: absolute;
+  position: fixed;
   z-index: -1;
 }
 

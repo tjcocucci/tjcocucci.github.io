@@ -1,11 +1,10 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
+import Card from './Card';
 
 export default function RightColumn() {
   return (
     <div className="rightcolumn">
-      <div className="terminal-card">
         <Outlet />
-      </div>
     </div>
   );
 }

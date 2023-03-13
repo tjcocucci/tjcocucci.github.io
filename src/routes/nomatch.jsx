@@ -1,12 +1,13 @@
+import Card from '../components/Card.jsx';
 import { Link } from "react-router-dom";
 
 export default function NoMatch() {
   return (
-    <div>
-      <h2>Nothing to see here!</h2>
+    <Card>
       <p>
-        <Link to="/">Go to the home page</Link>
+        No conozco esa URL, pero podés regresar a la{' '} 
+        <Link to="/">página inicial.</Link>
       </p>
-    </div>
+    </Card>
   );
 }
