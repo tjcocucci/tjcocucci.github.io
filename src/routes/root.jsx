@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "../components/NavigationBar.jsx";
 import LeftColumn from "../components/LeftColumn.jsx";
 import RightColumn from "../components/RightColumn.jsx";

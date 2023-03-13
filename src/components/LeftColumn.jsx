@@ -3,7 +3,7 @@ import ProfilePicture from "../components/ProfilePicture.jsx";
 export default function RightColumn() {
   return (
     <div className="leftcolumn">
-      <div className="card">
+      <div className="terminal-card">
         <ProfilePicture />
         <h2>Tadeo Javier Cocucci</h2>
         <h5>Dr. en Ciencias de la Computación</h5>

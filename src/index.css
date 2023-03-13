@@ -1,12 +1,17 @@
-body {
-  padding: 20px;
-  /* background: #74a2d4; */
-  background: white;
+:root {
+  --bs-border-color-translucent: #151515;
+  --bs-navbar-color: #000000;
 }
 
-body::after {
+body {
+  padding: 20px;
+}
+
+#background-image {
+  background-image: url('../static/bg_tilt.jpg');
+  background-repeat: repeat;
+  background-size: cover;
   content: '';
-  background: url('../static/bg_tilt.jpg');
   opacity: 0.3;
   top: 0;
   left: 0;
@@ -28,10 +33,18 @@ body::after {
   clip-path: circle();
 }
 
-.card {
+.terminal-card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+}
+
+.terminal-card.navbar {
+  padding:  0px;
+}
+
+.dropdown-menu {
+  border-radius: 0;
 }
 
 .leftcolumn {

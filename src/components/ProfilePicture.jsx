@@ -1,4 +1,4 @@
-export default function NavigationBar() {
+export default function ProilePicture() {
   return (
     <div>
       <img
