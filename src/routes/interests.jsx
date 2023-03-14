@@ -6,47 +6,47 @@ import 'react-slideshow-image/dist/styles.css';
 const slideImages = [
   {
     url: 'https://i.imgur.com/W1LlZKO.jpg',
-    caption: 'Slide 1',
+    caption: 'Ruta 40 Kilómetro 4020 (Canon Powershot SX50 HS)',
   },
   {
     url: 'https://i.imgur.com/mQR3HZf.jpg',
-    caption: 'Slide 1',
+    caption: 'Vicuñas camino a Antofagasta de la Sierra (Canon Powershot SX50 HS)',
   },
   {
     url: 'https://i.imgur.com/9Vk7cC3.jpg',
-    caption: 'Slide 1',
+    caption: 'Campo de piedra pómez (Canon Powershot SX50 HS)',
   },
   {
     url: 'https://i.imgur.com/kgOkDoo.jpg',
-    caption: 'Slide 1',
+    caption: 'Amanecer en Antofagasta (Canon Powershot SX50 HS)',
   },
   {
     url: 'https://i.imgur.com/V0xiyZH.jpg',
-    caption: 'Slide 1',
+    caption: 'Flores amarillas en Cuesta Blanca (Nikon FE2 Kodak Color)',
   },
   {
     url: 'https://i.imgur.com/ohEXfjA.jpg',
-    caption: 'Slide 1',
+    caption: 'Cajones en Cuesta Blanca (Nikon FE2 Kodak Color)',
   },
   {
     url: 'https://i.imgur.com/XLrtTjW.jpg',
-    caption: 'Slide 1',
+    caption: 'Gauchito Gil en Famatina (Nikon FE2 Kodak Color)',
   },
   {
     url: 'https://i.imgur.com/Uo1ysam.jpg',
-    caption: 'Slide 1',
+    caption: 'Fotógrafo fotografiado el campo de piedra pómez (Nikon FE2 Kodak Color)',
   },
   {
     url: 'https://i.imgur.com/XnWafr4.jpg',
-    caption: 'Slide 1',
+    caption: 'Campo de piedra pómez (Nikon FE2 Kodak Color)',
   },
   {
     url: 'https://i.imgur.com/5GvmJNT.jpg',
-    caption: 'Slide 1',
+    caption: 'Volcán Lanin (Nikon ???)',
   },
   {
     url: 'https://i.imgur.com/NpYIbLc.jpg',
-    caption: 'Slide 1',
+    caption: 'Abejorro en algún lugar de la Patagonia (Nikon ???)',
   },
 ];
 
