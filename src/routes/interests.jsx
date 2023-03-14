@@ -1,19 +1,52 @@
 import Card from '../components/Card.jsx';
+import Slideshow from '../components/Slideshow.jsx';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 const slideImages = [
   {
-    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    url: 'https://i.imgur.com/W1LlZKO.jpg',
     caption: 'Slide 1',
   },
   {
-    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
-    caption: 'Slide 2',
+    url: 'https://i.imgur.com/mQR3HZf.jpg',
+    caption: 'Slide 1',
   },
   {
-    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-    caption: 'Slide 3',
+    url: 'https://i.imgur.com/9Vk7cC3.jpg',
+    caption: 'Slide 1',
+  },
+  {
+    url: 'https://i.imgur.com/kgOkDoo.jpg',
+    caption: 'Slide 1',
+  },
+  {
+    url: 'https://i.imgur.com/V0xiyZH.jpg',
+    caption: 'Slide 1',
+  },
+  {
+    url: 'https://i.imgur.com/ohEXfjA.jpg',
+    caption: 'Slide 1',
+  },
+  {
+    url: 'https://i.imgur.com/XLrtTjW.jpg',
+    caption: 'Slide 1',
+  },
+  {
+    url: 'https://i.imgur.com/Uo1ysam.jpg',
+    caption: 'Slide 1',
+  },
+  {
+    url: 'https://i.imgur.com/XnWafr4.jpg',
+    caption: 'Slide 1',
+  },
+  {
+    url: 'https://i.imgur.com/5GvmJNT.jpg',
+    caption: 'Slide 1',
+  },
+  {
+    url: 'https://i.imgur.com/NpYIbLc.jpg',
+    caption: 'Slide 1',
   },
 ];
 
@@ -22,7 +55,7 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '400px',
+  height: '800px',
 };
 
 export default function Interests() {
@@ -51,7 +84,8 @@ export default function Interests() {
       </Card>
       <Card>
         Fotos
-        <Slide autoplay={false}>
+        <Slideshow images={slideImages}/>
+        {/* <Slide autoplay={false}>
           {slideImages.map((slideImage, index) => (
             <div key={index}>
               <div
@@ -60,12 +94,15 @@ export default function Interests() {
                   backgroundImage: `url(${slideImage.url})`,
                 }}
               >
-                <span>{slideImage.caption}</span>
+                <span> Slide {index}</span>
               </div>
             </div>
           ))}
-        </Slide>
+        </Slide> */}
       </Card>
     </>
   );
 }
+
+
+
