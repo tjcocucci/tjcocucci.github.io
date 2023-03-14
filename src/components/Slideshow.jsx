@@ -48,10 +48,10 @@ class Slideshow extends Component {
 
         <div className="slide-container buttons">
           <button className="btn btn-ghost" onClick={this.back}>
-            Go Back
+            Anterior
           </button>
           <button className="btn btn-ghost" onClick={this.next}>
-            Go Next
+            Siguiente
           </button>
         </div>
       </div>
