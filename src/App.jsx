@@ -6,12 +6,12 @@ import BackgroundImage from './components/BackgroundImage.jsx';
 function App() {
   return (
     <div className="App">
-        <BackgroundImage/>
-        <HashRouter >
-          <div className='main-column'>
-            <Router />
-          </div>
-        </HashRouter>
+      <BackgroundImage />
+      <HashRouter>
+        <div className="main-column">
+          <Router />
+        </div>
+      </HashRouter>
     </div>
   );
 }

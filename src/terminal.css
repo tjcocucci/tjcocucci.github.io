@@ -2,8 +2,10 @@
   --global-font-size: 15px;
   --global-line-height: 1.4em;
   --global-space: 10px;
-  --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   --background-color: #ffffff;
   --page-width: 60em;
   --font-color: #000000;
@@ -121,7 +123,7 @@ h1,
 }
 
 h1::after {
-  content: "====================================================================================================";
+  content: '====================================================================================================';
   position: absolute;
   bottom: 5px;
   left: 0;
@@ -151,7 +153,7 @@ blockquote {
 }
 
 blockquote::after {
-  content: ">\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>";
+  content: '>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>';
   white-space: pre;
   position: absolute;
   top: 0;
@@ -168,13 +170,13 @@ code {
 
 code::after,
 code::before {
-  content: "`";
+  content: '`';
   display: inline;
 }
 
 pre code::after,
 pre code::before {
-  content: "";
+  content: '';
 }
 
 pre {
@@ -222,11 +224,11 @@ pre code {
 }
 
 .terminal-prompt::before {
-  content: "> ";
+  content: '> ';
 }
 
 .terminal-prompt::after {
-  content: "";
+  content: '';
   animation: cursor 800ms infinite;
   background: var(--primary-color);
   border-radius: 0;
@@ -284,20 +286,20 @@ li::after {
 }
 
 ul > li::after {
-  content: "-";
+  content: '-';
 }
 
 nav ul > li::after {
-  content: "";
+  content: '';
 }
 
 ol li::before {
-  content: counters(item, ".") ". ";
+  content: counters(item, '.') '. ';
   counter-increment: item;
 }
 
 ol ol li::before {
-  content: counters(item, ".") " ";
+  content: counters(item, '.') ' ';
   counter-increment: item;
 }
 
@@ -310,7 +312,7 @@ ol {
   counter-reset: item;
 }
 
-ol li:nth-child(n+10)::after {
+ol li:nth-child(n + 10)::after {
   left: -7px;
 }
 
@@ -388,7 +390,7 @@ ol.terminal-toc li a {
 }
 
 ol.terminal-toc li::before {
-  content: counters(item, ".") ". ";
+  content: counters(item, '.') '. ';
   counter-increment: item;
   position: absolute;
   right: 0;
@@ -448,7 +450,7 @@ img {
 }
 
 .progress-bar-filled::before {
-  content: "";
+  content: '';
   border: 6px solid transparent;
   border-top-color: var(--progress-bar-fill);
   position: absolute;
@@ -472,7 +474,7 @@ img {
 
 .progress-bar-no-arrow > .progress-bar-filled::before,
 .progress-bar-no-arrow > .progress-bar-filled::after {
-  content: "";
+  content: '';
   display: none;
   visibility: hidden;
   opacity: 0;
@@ -527,11 +529,11 @@ label {
   color: var(--font-color);
 }
 
-input[type="email"],
-input[type="text"],
-input[type="number"],
-input[type="password"],
-input[type="search"] {
+input[type='email'],
+input[type='text'],
+input[type='number'],
+input[type='password'],
+input[type='search'] {
   border: 1px var(--input-style) var(--font-color);
   width: 100%;
   padding: 0.7em 0.5em;
@@ -541,26 +543,26 @@ input[type="search"] {
   border-radius: 0;
 }
 
-input[type="email"]:active,
-input[type="text"]:active,
-input[type="number"]:active,
-input[type="password"]:active,
-input[type="search"]:active,
-input[type="email"]:focus,
-input[type="text"]:focus,
-input[type="number"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus {
+input[type='email']:active,
+input[type='text']:active,
+input[type='number']:active,
+input[type='password']:active,
+input[type='search']:active,
+input[type='email']:focus,
+input[type='text']:focus,
+input[type='number']:focus,
+input[type='password']:focus,
+input[type='search']:focus {
   outline: none;
   -webkit-appearance: none;
   border: 1px solid var(--font-color);
 }
 
-input[type="text"]:not(:placeholder-shown):invalid,
-input[type="email"]:not(:placeholder-shown):invalid,
-input[type="password"]:not(:placeholder-shown):invalid,
-input[type="search"]:not(:placeholder-shown):invalid,
-input[type="number"]:not(:placeholder-shown):invalid {
+input[type='text']:not(:placeholder-shown):invalid,
+input[type='email']:not(:placeholder-shown):invalid,
+input[type='password']:not(:placeholder-shown):invalid,
+input[type='search']:not(:placeholder-shown):invalid,
+input[type='number']:not(:placeholder-shown):invalid {
   border-color: var(--error-color);
 }
 

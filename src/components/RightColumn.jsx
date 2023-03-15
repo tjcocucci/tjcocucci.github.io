@@ -4,7 +4,7 @@ import Card from './Card';
 export default function RightColumn() {
   return (
     <div className="rightcolumn">
-        <Outlet />
+      <Outlet />
     </div>
   );
 }
