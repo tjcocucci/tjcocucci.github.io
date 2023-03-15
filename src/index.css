@@ -1,11 +1,33 @@
 :root {
-  --bs-border-color-translucent: #151515;
+  --bs-border-color-translucent: #000000;
   --bs-navbar-color: #000000;
   --bs-btn-border-radius: 0;
 }
 
 body {
   padding: 20px;
+}
+
+div.main-column {
+  width: 70%;
+  margin: auto;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+
+.navbar {
+  --bs-navbar-color: rgba(0, 0, 0, 0.534);
+  --bs-navbar-hover-color: rgb(0, 0, 0);
+  --bs-navbar-disabled-color: rgba(0, 0, 0, 0);
+  --bs-navbar-toggler-border-color: #ffffff00;
+  --bs-navbar-toggler-border-radius: 0;
+  --bs-navbar-toggler-icon-bg: url('../static/menu.svg');
+  --bs-navbar-toggler-border-color: #ffffff00;
+  --bs-navbar-toggler-focus-width: 0;
+  --bs-navbar-toggler-transition: unset;
 }
 
 #background-image {
@@ -42,7 +64,7 @@ body {
 }
 
 .terminal-card.navbar {
-  padding:  0px;
+  padding: 0px;
 }
 
 .dropdown-menu {
@@ -69,11 +91,17 @@ img.profile {
   content: url('../static/profile.jpg');
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .leftcolumn,
   .rightcolumn {
     width: 100%;
     padding: 0;
   }
+  div.main-column {
+    width: 100%;
+  }
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
 }
-

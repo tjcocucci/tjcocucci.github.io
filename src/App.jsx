@@ -8,7 +8,9 @@ function App() {
     <div className="App">
         <BackgroundImage/>
         <HashRouter >
-          <Router />
+          <div className='main-column'>
+            <Router />
+          </div>
         </HashRouter>
     </div>
   );
