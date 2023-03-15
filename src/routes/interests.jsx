@@ -10,7 +10,8 @@ const slideImages = [
   },
   {
     url: 'https://i.imgur.com/mQR3HZf.jpg',
-    caption: 'Vicuñas camino a Antofagasta de la Sierra (Canon Powershot SX50 HS)',
+    caption:
+      'Vicuñas camino a Antofagasta de la Sierra (Canon Powershot SX50 HS)',
   },
   {
     url: 'https://i.imgur.com/9Vk7cC3.jpg',
@@ -34,7 +35,8 @@ const slideImages = [
   },
   {
     url: 'https://i.imgur.com/Uo1ysam.jpg',
-    caption: 'Fotógrafo fotografiado el campo de piedra pómez (Nikon FE2 Kodak Color)',
+    caption:
+      'Fotógrafo fotografiado el campo de piedra pómez (Nikon FE2 Kodak Color)',
   },
   {
     url: 'https://i.imgur.com/XnWafr4.jpg',
@@ -83,26 +85,12 @@ export default function Interests() {
         </p>
       </Card>
       <Card>
-        Fotos
-        <Slideshow images={slideImages}/>
-        {/* <Slide autoplay={false}>
-          {slideImages.map((slideImage, index) => (
-            <div key={index}>
-              <div
-                style={{
-                  ...divStyle,
-                  backgroundImage: `url(${slideImage.url})`,
-                }}
-              >
-                <span> Slide {index}</span>
-              </div>
-            </div>
-          ))}
-        </Slide> */}
+        Me gusta sacar fotos, especialmente de viajes. Acá tengo algunas de
+        viajes al Cuyo y Patagonia Argentina. Algunas son con cámaras digitales
+        y otras con una cámara analógica{' '}
+        <a href="https://en.wikipedia.org/wiki/Nikon_FE2">Nikon FE2</a>.
+        <Slideshow images={slideImages} />
       </Card>
     </>
   );
 }
-
-
-

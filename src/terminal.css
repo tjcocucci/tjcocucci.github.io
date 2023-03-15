@@ -752,7 +752,7 @@ select:-webkit-autofill:focus {
 
 .terminal-card {
   border: 1px solid var(--secondary-color);
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .terminal-card > header {
