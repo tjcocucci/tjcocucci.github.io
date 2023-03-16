@@ -38,7 +38,7 @@ class Slideshow extends Component {
         <div className="slide-container">
           <Slide ref={this.slideRef} {...properties}>
             {slideImages.map((each, index) => (
-              <div key={index + 2} className="each-slide">
+              <div key={index + 1} className="each-slide">
                 <img className="lazy" src={each.url} alt="sample" />
                 <p>{each.caption}</p>
               </div>

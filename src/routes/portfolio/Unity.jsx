@@ -8,8 +8,16 @@ export default function Unity() {
         <a href="https://www.youtube.com/playlist?list=PLFt_AvWsXl0ctd4dgE1F8g3uec4zKNRV0">
           este
         </a>{' '}
-        genial tutorial de Sebastian Lague. Tiene muchas features que fueron muy
-        divertidas de programar, como estas:
+        genial tutorial de Sebastian Lague.
+        <div style={{width: 420, margin: "auto"}}>
+          <iframe
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/GBE1x5ZxiDc "
+          ></iframe>
+        </div>
+        Tiene muchas features que fueron muy divertidas de programar, como
+        estas:
         <ul>
           <li>
             Generación procedural de niveles con editor custom de mapas: esto te
@@ -30,13 +38,20 @@ export default function Unity() {
       </Card>
       <Card>
         También siguiendo{' '}
-        <a href="https://www.youtube.com/playlist?list=PLFt_AvWsXl0ctd4dgE1F8g3uec4zKNRV0">
+        <a href="https://www.youtube.com/playlist?list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3">
           un proyecto
         </a>{' '}
         de Sebastian Lague, conseguí armar este generador procedural de terrenos
         usando ruido de Perlin, configurable para usar diferente cantidad de
-        octavas y valores de lacunaridad y persistencia. Algunas cosas lindas de
-        este proyecto super divertido:
+        octavas y valores de lacunaridad y persistencia.
+        <div style={{width: 420, margin: "auto"}}>
+          <iframe
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/vwuGZxV2O5E"
+          ></iframe>
+        </div>
+        Algunas cosas lindas de este proyecto super divertido:
         <ul>
           <li>
             Editor customizado para jugar con las diferentes variables que
