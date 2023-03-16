@@ -50,9 +50,6 @@ export default function Academic() {
           </li>
         </ul>
       </Card>
-      <Card>
-        <b>Docencia</b>
-      </Card>
     </>
   );
 }
